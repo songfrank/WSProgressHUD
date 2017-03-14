@@ -53,10 +53,10 @@ To Download the project. Run the WSProgressHUD.xcodeproj in the demo directory.
 
     //Show with mask
     [WSProgressHUD showWithMaskType:WSProgressHUDMaskTypeBlack];
-    
+
     //Show with mask without tabbar
     [WSProgressHUD showWithStatus:@"Loading..." maskType:WSProgressHUDMaskTypeBlack maskWithout:WSProgressHUDMaskWithoutTabbar];
-    
+
     //Show with string
     [WSProgressHUD showWithStatus:@"Loading..."];
 
@@ -68,13 +68,13 @@ To Download the project. Run the WSProgressHUD.xcodeproj in the demo directory.
 
     //Show with image
     [WSProgressHUD showSuccessWithStatus:@"Thanks.."];
-    
+
     //Show with string
     [WSProgressHUD showImage:nil status:@"WSProgressHUD"]
 
     //Dismiss
     [WSProgressHUD dismiss];
-    
+
     //And There have 3 indicator style for your choice
     [WSProgressHUD setProgressHUDIndicatorStyle:WSProgressHUDIndicatorSmall] //small custom spinner
 
@@ -105,9 +105,4 @@ Add the QuartzCore framework to your project.
 Wilson-Yuan, xiaochong2154@163.com
 
 ## License
-WSProgressHUD is available under the MIT license. See the LICENSE file for more info.
-
-
-
-
-
+WSProgressHUD is available under the MIT license. See the [LICENSE](https://raw.githubusercontent.com/songfrank/WSProgressHUD/master/LICENSE) file for more info.
